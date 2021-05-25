@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "coursera-intro-to-dl"
+version = "0.1.0"
+description = "Environment for Coursera course \"Intro to DL\""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+tensorflow = "^2.5.0"
+h5py = "*"
+joblib  = "*"
+matplotlib  = "*"
+nltk  = "*"
+numpy  = "*"
+pandas  = "*"
+pillow  = "*"
+requests  = "*"
+scikit-learn = "*"
+scipy  = "*"
+tqdm = "*"
+ffmpeg = "*"
+ipykernel = "^5.5.5"
+ipywidgets = "^7.6.3"
+tensorflow-addons = "^0.13.0"
+opencv-python = "^4.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
